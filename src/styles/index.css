@@ -1,12 +1,35 @@
 
-/* 
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
 
-*/
+ body{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+ }
+ ul{
+    padding: 0%;
+ }
+ ul li{
+    border: 1px solid grey;
+    list-style: none;
+    padding: 6px;
+ }
+
+ .todo-list {
+    background: white;
+      box-shadow: 0px 10px 0px -4px white, 0px 20px 0px -8px #f1f1f1, 0px 20px 20px 20px rgba(88, 76, 76, 0.15);;
+  
+    width: 500px;
+    margin-top: 20px;
+  }
+  .footer {
+    align-items: start;
+
+  }
+  h1{
+    font-family: cursive;
+font-size: 70px;
+    color: #a0919e;
+  }
